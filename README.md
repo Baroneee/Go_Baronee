@@ -19,7 +19,8 @@ Go_Baronee/
 └── cxe_3_networking_docs/   # Slot 3: Networking, System Architecture & Daily Logs
 ```
 
-📂 Inside the Folders
+## 📂 Inside the Folders
+
 🧩 cxe_1_dsa/ — Data Structures & Algorithms in Go
 The Goal: Master algorithmic thinking using Go as the primary weapon.
 
@@ -55,7 +56,8 @@ System Design Fundamentals: Notes on load balancers, proxies, caching strategies
 
 Daily Journal & Reflections: End-of-day summaries capturing key takeaways, mistakes made, and progress tracked against the 60-day roadmap.
 
-🌟 A Final Word
+## 🌟 A Final Word
+
 This repository is built in public with complete transparency—wins, blunders, refactors, and all. If you are also on a self-taught engineering path, I hope this codebase serves as a source of clarity, inspiration, and motivation.
 
 "A journey from Zero to Hero — or at least, Zero to Here." — Baronee
