@@ -83,7 +83,8 @@
 - Các chương trình cấp cao cũng được viết thành các tệp. Các tệp này được gọi là "tệp nguồn" (source files). Nhìn chung, các ngôn ngữ lập trình yêu cầu thêm một phần mở rộng cụ thể vào tên tệp. Đối với các chương trình Go, chúng ta sẽ thêm .go vào cuối mỗi tệp mà chúng ta viết. Trong PHP, phần mở rộng là .php.
 - Khi các tệp nguồn được viết, chương trình do chúng định nghĩa không thể được thực thi ngay lập tức. Tệp nguồn cần được biên dịch bằng cách sử dụng một trình biên dịch (compiler). Trình biên dịch sẽ biến đổi các tệp nguồn thành một tệp thực thi. Trình biên dịch cũng là một chương trình. Go là một phần của gia đình ngôn ngữ biên dịch.
 - Go là một ngôn ngữ biên dịch
-  ![Quy trình Trình dịch (Compiler)](https://www.practical-go-lessons.com/img/compiler.adc1a3b1.png)
+
+![Quy trình Trình dịch (Compiler)](https://www.practical-go-lessons.com/img/compiler.adc1a3b1.png)
 
 #### BIÊN DỊCH VS THÔNG DỊCH
 

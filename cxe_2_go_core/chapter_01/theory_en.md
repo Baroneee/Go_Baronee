@@ -83,6 +83,7 @@
 - High-level programs are also written into files. These files are called "source files". Generally, programming languages require adding a specific extension to the file name. For Go programs, we will add .go to the end of each file we write. In PHP, the extension is .php.
 - When source files are written, the program defined by them cannot be executed immediately. Source files need to be compiled using a compiler. A compiler will transform source files into an executable file. A compiler is also a program. Go is part of the compiled language family.
 - Go is a compiled language
+
   ![Compiler Process](https://www.practical-go-lessons.com/img/compiler.adc1a3b1.png)
 
 #### COMPILED VS INTERPRETED
