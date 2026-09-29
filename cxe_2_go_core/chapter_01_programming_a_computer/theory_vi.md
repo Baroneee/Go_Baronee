@@ -130,3 +130,18 @@
 ##### Go là một ngôn ngữ thông dịch? Đúng hay sai?
 
 - Sai vì Go là một ngôn ngữ biên dịch (Complied language)
+
+## Các điểm cốt lõi cần ghi nhớ
+
+- Ở cấp độ vĩ mô, máy tính bao gồm:
+  - Đơn vị bộ nhớ (MU): để lưu trữ dữ liệu và chương trình.
+  - Đơn vị số học và logic (ALU): để thực hiện tính toán.
+  - Đơn vị nhập và xuất (IOU): để quản lý các thiết bị đầu vào và thiết bị đầu ra.
+  - Đơn vị điều khiển (CU): quản lý MU, ALU và IOU theo các chỉ thị được đưa ra bởi chương trình đang thực thi.
+- CPU có nghĩa là Central Processing Unit (còn được gọi là bộ vi xử lý hoặc chip xử lý), bao gồm ALU và CU.
+- Một chương trình là một tập hợp các chỉ thị.
+- Lập trình viên viết chương trình bằng ngôn ngữ lập trình.
+- Ngôn ngữ lập trình bao gồm các từ và ký tự phải được sắp xếp tuân theo các quy tắc chỉ định.
+- Có các ngôn ngữ lập trình cấp cao và cấp thấp.
+- Ngôn ngữ máy và ngôn ngữ hợp ngữ là cấp thấp. Các chỉ thị được viết bằng các ngôn ngữ này gắn kết chặt chẽ với tổ chức và năng lực của phần cứng. Chúng cung cấp rất ít tính trừu tượng.
+- Go là một ngôn ngữ lập trình cấp cao và được biên dịch.
