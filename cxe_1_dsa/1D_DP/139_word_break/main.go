@@ -22,7 +22,7 @@ func wordBreak(s string, wordDict []string) bool {
 	return dp[len(s)]
 }
 
-// Version 2: Brute Force (Decision Tree / BFS - Top-down)
+// Version 2: Brute Force (Decision Tree / DFS - Top-down)
 func wordBreak_ver2(s string, wordDict []string) bool {
 
 	var backtrack func(start int) bool
