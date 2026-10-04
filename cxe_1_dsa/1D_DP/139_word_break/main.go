@@ -45,10 +45,38 @@ func wordBreak_ver2(s string, wordDict []string) bool {
 	return backtrack(0)
 }
 
+func wordBreak_TopDown(s string, wordDict []string) bool {
+    memo := make([]int, len(s)+1)
+    var dp func(s string) bool
+    dp = func(s string) bool {
+        if len(s) == 0 {
+            return true
+        }
+
+        n := len(s)
+        if memo[n] != 0 {
+            return memo[n] == 1
+        }
+        for _, w := range wordDict {
+            if strings.HasPrefix(s,w) {
+                if dp(s[len(w):]) {
+                    memo[n] = 1
+                    return true
+                }
+            }
+        }
+        memo[n] = -1
+        return false
+    }
+
+    return dp(s)
+}
+
 func main() {
 	s := "leetcode"
 	wordDict := []string{"leet", "code"}
 
 	fmt.Println("Result (DP):", wordBreak(s, wordDict))
 	fmt.Println("Result (DFS):", wordBreak_ver2(s, wordDict))
+	fmt.Println("Result (Top-Down):", wordBreak_TopDown(s, wordDict))
 }
