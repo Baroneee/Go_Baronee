@@ -21,8 +21,20 @@ func climbStairs(n int) int {
 	return dp(n)
 }
 
+func climbStairsOptimal(n int) int {
+	prev := 0
+	curr := 1
+	for i := 1; i <= n; i++ {
+		temp := curr
+		curr = prev + curr
+		prev = temp
+	}
+	return curr
+}
+
 func main() {
 	n := 5
 	result := climbStairs(n)
 	fmt.Println(result)
+	fmt.Println(climbStairsOptimal(n))
 }
