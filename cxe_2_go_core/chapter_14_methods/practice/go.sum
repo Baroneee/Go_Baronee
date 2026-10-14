@@ -1,0 +1,7 @@
+module methods/example-project
+
+go 1.22
+
+require (
+    github.com/Rhymond/go-money v1.0.10
+)
