@@ -10,9 +10,3 @@ func (c *CartStorePostgres) GetById(ID string) (*Cart, error) { return nil, nil 
 func (c *CartStorePostgres) Put(cart *Cart) (*Cart, error) {
 	return cart, nil
 }
-
-// type CartStoreMongo struct{}
-// func (c *CartStoreMongo) GetById(ID string) (*Cart, error) { return nil, nil }
-// func (c *CartStoreMongo) Put(cart *Cart) (*Cart, error) {
-// 	return cart, nil
-// }
