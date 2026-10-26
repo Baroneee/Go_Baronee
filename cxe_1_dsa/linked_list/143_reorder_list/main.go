@@ -44,5 +44,5 @@ func reverseList(head *ListNode) *ListNode {
 }
 
 func main() {
-	// Example usage
+
 }
